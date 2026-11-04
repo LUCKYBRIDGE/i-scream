@@ -9,7 +9,7 @@ pptx.author = 'KNOL';
 pptx.title = '교실에서 바로 쓰는 웹 도구';
 pptx.lang = 'ko-KR';
 const ink = '132722', paper = 'F6F5EF', green = '1A614F', muted = '526760', white = 'FFFFFF';
-const fontFace = 'Apple SD Gothic Neo';
+const fontFace = 'Noto Sans CJK KR';
 function txt(slide, value, x, y, w, h, options = {}) {
   slide.addText(value, { x, y, w, h, fontFace, fontSize: 16, color: ink, margin: 0, valign: 'mid', breakLine: false, ...options });
 }
